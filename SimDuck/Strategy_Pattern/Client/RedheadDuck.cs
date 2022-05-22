@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimDuck
 {
-    public class RedheadDuck : Duck, QuackBehavior, FlyBehavior
+    public class RedheadDuck : Duck
     {
         public RedheadDuck()
         {
@@ -15,16 +15,6 @@ namespace SimDuck
         public override void display()
         {
             Console.WriteLine("저는 붉은머리 오리 입니다.");
-        }
-        public void fly()
-        {
-            Console.WriteLine("붉은머리 오리 훨훨");
-
-        }
-
-        public void quack()
-        {
-            Console.WriteLine("붉은머리 오리 꽥꽥");
         }
     }
 }
