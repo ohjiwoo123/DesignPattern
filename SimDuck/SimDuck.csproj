@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
+  </ItemGroup>
+
 </Project>
