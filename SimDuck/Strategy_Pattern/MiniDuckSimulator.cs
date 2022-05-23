@@ -23,6 +23,7 @@ namespace SimDuck.Strategy_Pattern
             mallard.setQuackBehavior(new Quack());
             mallard.performQuack();
             mallard.performFly();
+            mallard.swim();
             mallard.display();
             Console.WriteLine("==================================================");
 
@@ -32,6 +33,7 @@ namespace SimDuck.Strategy_Pattern
             redhead.setQuackBehavior(new Quack());
             redhead.performQuack();
             redhead.performFly();
+            redhead.swim();
             redhead.display();
             Console.WriteLine("==================================================");
 
@@ -41,6 +43,7 @@ namespace SimDuck.Strategy_Pattern
             rubber.setQuackBehavior(new Squack());
             rubber.performQuack();
             rubber.performFly();
+            rubber.swim();
             rubber.display();
             Console.WriteLine("==================================================");
 
@@ -50,6 +53,7 @@ namespace SimDuck.Strategy_Pattern
             decoy.setQuackBehavior(new MuteQuack());
             decoy.performQuack();
             decoy.performFly();
+            decoy.swim();
             decoy.display();
             Console.WriteLine("==================================================");
         }
