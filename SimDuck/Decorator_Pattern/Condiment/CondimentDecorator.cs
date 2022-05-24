@@ -8,11 +8,9 @@ namespace SimDuck.Decorator_Pattern.Condiment
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public double cost()
-        {
-            
-        }
+        public abstract override double cost();
 
-        public new abstract string getDescription();
+
+        public abstract override string getDescription();
     }
 }

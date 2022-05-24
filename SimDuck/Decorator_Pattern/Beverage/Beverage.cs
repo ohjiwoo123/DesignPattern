@@ -9,10 +9,7 @@ namespace SimDuck.Decorator_Pattern
     public abstract class Beverage
     {
         public string description = "제목 없음";
-        public string getDescription()
-        {
-            return description;
-        }
+        public abstract string getDescription();
         public abstract double cost();
     }
 }

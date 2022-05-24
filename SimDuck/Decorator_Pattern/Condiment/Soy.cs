@@ -21,7 +21,7 @@ namespace SimDuck.Decorator_Pattern.Condiment
             return beverage.getDescription() + ", 두유";
         }
 
-        public double cost()
+        public override double cost()
         {
             return .15 + beverage.cost();
         }

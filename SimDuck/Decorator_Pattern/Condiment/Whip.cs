@@ -21,7 +21,7 @@ namespace SimDuck.Decorator_Pattern.Condiment
             return beverage.getDescription() + ", 휘핑 크림";
         }
 
-        public double cost()
+        public override double cost()
         {
             return .10 + beverage.cost();
         }

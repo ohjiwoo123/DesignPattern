@@ -16,5 +16,10 @@ namespace SimDuck.Decorator_Pattern
         {
             return 1.05;
         }
+
+        public override string getDescription()
+        {
+            return description;
+        }
     }
 }
