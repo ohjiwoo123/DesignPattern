@@ -8,11 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Decorator_Pattern\StarbucksCoffee.cs" />
     <Compile Remove="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Decorator_Pattern\StarbucksCoffee.cs" />
     <None Include="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
   </ItemGroup>
 
 </Project>
