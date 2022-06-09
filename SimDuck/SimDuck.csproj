@@ -8,12 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Command_Pattern\RemoteControlTest.cs" />
     <Compile Remove="Decorator_Pattern\StarbucksCoffee.cs" />
+    <Compile Remove="Facade_Pattern\HomeTheaterTestDrive.cs" />
+    <Compile Remove="Factory_Pattern\Program.cs" />
     <Compile Remove="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Command_Pattern\RemoteControlTest.cs" />
     <None Include="Decorator_Pattern\StarbucksCoffee.cs" />
+    <None Include="Facade_Pattern\HomeTheaterTestDrive.cs" />
+    <None Include="Factory_Pattern\Program.cs" />
     <None Include="Strategy_Pattern\Client\MiniDuckSimulator.cs" />
   </ItemGroup>
 
